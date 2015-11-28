@@ -7,7 +7,8 @@ Apache
 PHP 5.6.7  
 mysql 5.6.20  
 ### ツール
-
+vagrant 1.7.4  
+Virtual Box 5.0.10 r104061
 ## 使い方
 ### インストール方法
 
