@@ -1,6 +1,6 @@
 <?php
 
-define('DSN', 'mysql:host=localhost;dbname=rental_db;charset=utf8');
+define('DSN', 'mysql:host=localhost;dbname=kidslife_db;charset=utf8');
 define('DB_USER','kajitack');
 define('DB_PASSWORD','jkjfai38tkd12');
 
