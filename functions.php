@@ -91,3 +91,8 @@ function login_check() {
     }
 }
 
+function block_access() {
+    if (! isset($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_X_REQUESTED_WITH'] !== 'XMLHttpRequest') {
+        die(json_encode(array('status' => "不正な呼び出しです")));
+    }
+}

@@ -5,7 +5,7 @@ define('DB_USER','kajitack');
 define('DB_PASSWORD','jkjfai38tkd12');
 
 define('SITE_NAME','');
-define('SITE_URL', '192.168.100.150');
+define('SITE_URL', 'http://192.168.100.150/');
 
 error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 // error_reporting(0);

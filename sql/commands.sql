@@ -46,3 +46,4 @@ CREATE TABLE `categories` (
   `name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
+
