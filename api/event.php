@@ -64,9 +64,11 @@ if (preg_match('/^[1-9][0-9]*$/', $_GET['id'])) {
     $sql = "SELECT * FROM `events-users` WHERE event_id = $id AND user_id = 1 LIMIT 1";
     if($dbh->query($sql)) {
       foreach($dbh->query($sql) as $row) {
-        $data = $data[0] + array('state' => $row['state_id']);
+        $_data = $data[0] + array('state' => $row['state_id']);
       }
     }
+    $array[] = $_data;
+    $data = $array;
 } else if($_GET['id']) {
     $data = null;
 }

@@ -98,6 +98,11 @@ if($_GET['favorite_id'] && $_GET['user_id']) {
 }
 
 
+// if($_GET['medal'] && $_GET['user']) {
+//   $medal = $_GET['medal'];
+//   $user = $_GET['user'];
+
+// }
 
 header('Access-Control-Allow-Origin:*');
 header('Content-type: application/json');
